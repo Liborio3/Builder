@@ -1,0 +1,13 @@
+package com.item;
+
+import com.packing.Packing;
+
+public interface Item {
+
+	public String name();
+
+	public Packing packing();
+
+	public float price();
+
+}
